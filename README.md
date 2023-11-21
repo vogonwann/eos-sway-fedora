@@ -91,7 +91,7 @@ Is set to default for swaywm and can be changed to:
    
 
 
-![sway](https://drive.google.com/file/d/1RxxFWvYHEEJfd5lO5_X_VpTI7kZY6fVv/view?usp=drive_link)
+![sway](https://lh3.googleusercontent.com/drive-viewer/AK7aPaCTN4ZrW7-k1TjyBA_IQr3ynXQ38OUUbmreUKFQVLHLCKqIWy-NZ9UKhfAIKwaG9QK0yebrbZt-79xmFh2CRZpv0fxooA=s1600)
 ![wofi](https://lh3.googleusercontent.com/drive-viewer/AK7aPaAnZjWvgrBO4UsbW_HGYiVAtoVM89cfua2ZyBKCNu5X7d5AgosYB7EbU-JaPnwYGTvZb2RN9LzgCH97hbDj7x8RmRPV7g=s1600)
 
 Waybar :
