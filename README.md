@@ -6,7 +6,7 @@
 
 This is the fork of Endeavour OS Sway Community Edition for Fedora Sway Spin
 
-Tried and confirmed working on Fedora 39 net install iso.
+Confirmed working on Fedora 39 net install iso and Fedora Workstation 39.
 
 ## To Install Manually
 
