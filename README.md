@@ -8,7 +8,7 @@ This is the fork of Endeavour OS Sway Community Edition for Fedora Sway Spin
 
 ## To Install Manually
 
-    git clone https://github.com/EndeavourOS-Community-Editions/sway.git
+    git clone https://github.com/vogonwann/eos-sway-fedora.git
 
     cd sway
 
