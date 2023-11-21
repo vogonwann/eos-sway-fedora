@@ -10,10 +10,10 @@ Tried and confirmed working on Fedora 39 net install iso.
 
 ## To Install Manually
 
-    ```bash sudo dnf install sway-config-fedora
+    sudo dnf install sway-config-fedora
     git clone https://github.com/vogonwann/eos-sway-fedora.git
     cd sway
-    bash sway-install.sh```
+    bash sway-install.sh
    
 ## Contained In The Script
     p -R .config/* ~/.config/
