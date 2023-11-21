@@ -1,11 +1,13 @@
 ## unmaintained needs contributors or maintainer
 
 
-# Sway-WM Setup and Theme for EndeavourOS
+# Sway-WM Setup and Theme for EndeavourOS for Fedora Sway
 
 **Sway EndeavourOS Community Edition**
 
 [![Maintenance](https://img.shields.io/maintenance/yes/2023.svg)]()
+
+This is the fork of Endeavour OS Sway Community Edition for Fedora Sway Spin
 
 ## To Install Manually
 
@@ -16,18 +18,22 @@
     bash sway-install.sh
    
 ## Contained In The Script
-    cp -R .config/* ~/.config/
-    
+    p -R .config/* ~/.config/
+
     cp .profile ~/.profile
-    
+
     cp .gtkrc-2.0 ~/.gtkrc-2.0
-    
+
     chmod -R +x ~/.config/sway/scripts
-    
+
     chmod -R +x ~/.config/waybar/scripts
+
+    # sudo pacman -Syu --needed --noconfirm - < packages-repository.txt
+
+    sudo dnf copr enable atim/ubuntu-fonts -y && sudo dnf install ubuntu-family-fonts -y
     
-    sudo pacman -Syu --needed --noconfirm - < packages-repository.txt
-    
+    sudo dnf install -y $(cat packages-repository.txt)
+
     dbus-launch dconf load / < xed.dconf
     
 SDDM is the default display manager
