@@ -91,8 +91,8 @@ Is set to default for swaywm and can be changed to:
    
 
 
-![sway](https://forum.endeavouros.com/uploads/default/original/3X/b/c/bc09b71d718cb09a8efd4545cc65366c5f855441.png)
-![wofi](https://forum.endeavouros.com/uploads/default/original/3X/9/d/9daff7f842bd9db097e0bb9d6be5cf5b65e6baa0.jpeg)
+![sway](https://drive.google.com/file/d/1RxxFWvYHEEJfd5lO5_X_VpTI7kZY6fVv/view?usp=drive_link)
+![wofi](https://drive.google.com/file/d/17-Gk-u2bBfAcHE1ByOEVu8ohXMZ4tw1g/view?usp=drive_link)
 
 Waybar :
 ![waybar](https://forum.endeavouros.com/uploads/default/original/3X/7/3/73b22b2a678c6836c3b2d15747b0ef28e064fbc2.png)
