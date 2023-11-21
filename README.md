@@ -6,12 +6,13 @@
 
 This is the fork of Endeavour OS Sway Community Edition for Fedora Sway Spin
 
+Tried and confirmed working on Fedora 39 net install iso.
+
 ## To Install Manually
 
+    sudo dnf install sway-config-fedora
     git clone https://github.com/vogonwann/eos-sway-fedora.git
-
     cd sway
-
     bash sway-install.sh
    
 ## Contained In The Script
