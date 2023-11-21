@@ -28,8 +28,6 @@ This is the fork of Endeavour OS Sway Community Edition for Fedora Sway Spin
     sudo dnf copr enable atim/ubuntu-fonts -y && sudo dnf install ubuntu-family-fonts -y
     
     sudo dnf install -y $(cat packages-repository.txt)
-
-    dbus-launch dconf load / < xed.dconf
     
 SDDM is the default display manager
     
