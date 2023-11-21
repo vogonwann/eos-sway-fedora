@@ -92,7 +92,7 @@ Is set to default for swaywm and can be changed to:
 
 
 ![sway](https://drive.google.com/file/d/1RxxFWvYHEEJfd5lO5_X_VpTI7kZY6fVv/view?usp=drive_link)
-![wofi](https://drive.google.com/file/d/17-Gk-u2bBfAcHE1ByOEVu8ohXMZ4tw1g/view?usp=drive_link)
+![wofi](https://lh3.googleusercontent.com/drive-viewer/AK7aPaAnZjWvgrBO4UsbW_HGYiVAtoVM89cfua2ZyBKCNu5X7d5AgosYB7EbU-JaPnwYGTvZb2RN9LzgCH97hbDj7x8RmRPV7g=s1600)
 
 Waybar :
 ![waybar](https://forum.endeavouros.com/uploads/default/original/3X/7/3/73b22b2a678c6836c3b2d15747b0ef28e064fbc2.png)
