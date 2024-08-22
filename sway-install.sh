@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Easy setup for testing
-
+  mkdir -p ~/.config/
 cp -R .config/* ~/.config/
 cp .profile ~/.profile
 cp .gtkrc-2.0 ~/.gtkrc-2.0
