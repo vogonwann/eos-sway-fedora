@@ -38,3 +38,7 @@ htop
 xsensors
 NetworkManager-tui
 lxpolkit
+lxsession
+bat
+fastfetch
+kitty
