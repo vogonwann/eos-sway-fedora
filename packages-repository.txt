@@ -42,3 +42,4 @@ lxsession
 bat
 fastfetch
 kitty
+fish
