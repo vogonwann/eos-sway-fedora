@@ -3,7 +3,8 @@
 LOC="$1"
 # HTML encode string as %20
 LOCATION=$(sed -e "s/ /%20/g" <<<"$LOC")
-content=$(curl -sS "https://thisdavej.azurewebsites.net/api/weather/current?loc=$LOCATION&deg=C")
+# LOCATION='Smederevo'
+content=$(curl -sS "https://thisdavej.azurewebsites.net/api/weather/current?loc=Smederevo&deg=C")
 ICON=$(curl -s 'https://wttr.in/?format=1' | sed 's/[+0-9a-cA-Z°-]//g' )
 # echo $ICON
 TEMP=$(echo $content | jq -r '. | "\(.temperature)°\(.degType)"' | sed 's/"//g')

@@ -1,6 +1,7 @@
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
 
+
 # Home row direction keys, like vim
 set $left h
 set $down j
@@ -16,7 +17,7 @@ set $volume_mute $(pactl set-sink-mute @DEFAULT_SINK@ toggle && pactl get-sink-m
 set $mic_mute $(pactl set-source-mute @DEFAULT_SOURCE@ toggle && pactl get-source-mute @DEFAULT_SOURCE@ | sed -En "/no/ s/.*/$($source_volume)/p; /yes/ s/.*/0/p")
 
 # Your preferred terminal emulators
-set $term-float xfce4-terminal
+set $term-float kitty
 
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
@@ -219,9 +220,18 @@ bindsym $mod+r mode "resize"
 #
 # Screenshots
 #
-    bindsym print exec /usr/share/sway/scripts/grimshot --notify save output
-    bindsym Shift+print exec ~/.config/sway/scripts/screenshot.sh
+    # bindsym print exec /usr/share/sway/scripts/grimshot --notify save output
+    # bindsym Shift+print exec ~/.config/sway/scripts/screenshot.sh
+    bindsym Ctrl+Shift+P exec ~/.config/sway/scripts/capture_area.sh
+    bindsym Ctrl+Alt+P exec ~/.config/sway/scripts/capture_screen.sh
+    bindsym Ctrl+Alt+A exec ~/.config/sway/scripts/capture_all.sh
 #
 # Keybindings List
 #
     bindsym $mod+t exec xed ~/.config/sway/cheatsheet
+#    
+# Gaps
+#
+    gaps inner 14
+    gaps outer 14
+    smart_gaps on
